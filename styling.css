@@ -56,7 +56,7 @@ body {
 .testimonial1 {
     background-color: hsl(263, 100%, 23%);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
@@ -69,7 +69,7 @@ body {
 .testimonial2 {
     background-color: hsl(217, 19%, 35%);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
@@ -79,7 +79,7 @@ body {
 .testimonial3  {
     background-color: hsl(210, 12%, 94%);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     color: hsl(217, 19%, 35%);
@@ -90,7 +90,7 @@ body {
 .testimonial4{
     background-color: hsl(219, 29%, 14%);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     grid-column: 2 / span 2;
     grid-row: 2/ span 1;
     color: hsl(0, 40%, 91%);
@@ -100,7 +100,7 @@ body {
 .testimonial5{
     background-color: hsla(0, 33%, 90%, 0.6);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
     color: hsl(217, 19%, 35%);
