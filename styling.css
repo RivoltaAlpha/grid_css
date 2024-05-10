@@ -8,15 +8,41 @@ body {
 /* Container for the testimonials grid */
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     grid-auto-flow: column;
     justify-content: start;
+    justify-items: auto;
+    grid-gap: 20px;
+    padding: 600px;
     background-color: #fff;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin:auto
+}
+
+.container .quotationmark {
+    position: absolute;
+    top: 40px;
+    right: 800px; 
+}
+
+.testimonial .img{
+    width: 11px;
+    height: 1px;
+    border-radius: 50%;
+    border: 2px solid #0d0101;
+    margin-right: 10px;
+}
+
+
+.container .header {
+    display: grid;
+    justify-content: start;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 10px;
 }
 
   /* Verified graduate status */
@@ -30,7 +56,7 @@ body {
 .testimonial1 {
     background-color: hsl(263, 55%, 52%);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
@@ -78,14 +104,7 @@ body {
     color: hsl(217, 19%, 35%);
 }
 
-/* Image styling */
-.img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #fff;
-}
+
 
 .testimonial h2 {
     font-size: 1.5em;
@@ -97,26 +116,10 @@ body {
     font-size: 1.2em;
     margin-top: 10px;
   }
-  .testimonial5 blockquote {
+  .testimonial5 span {
     font-style: italic;
     margin-top: 15px;
   }
-
-/* Header styles */
-.header {
-    display: grid;
-    justify-content: start;
-    grid-auto-flow: column;
-    align-items: center;
-    grid-gap: 10px;
-}
-
-/* Quotation mark */
-.quotation {
-    position: absolute;
-    top: 40px;
-    right: 800px;
-}
 
 /* Media query for mobile phones */
 @media only screen and (max-width: 768px) {
@@ -124,11 +127,11 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .template1,
-    .template2,
-    .template3,
-    .template4,
-    .template5 {
+    .testimonial1,
+    .testimonial2,
+    .testimonial3,
+    .testimonial4,
+    .testimonial5 {
         grid-column: 1 / span 1;
         min-height: 50px;
     }
