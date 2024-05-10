@@ -11,15 +11,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-auto-flow: column;
-    justify-content: start;
-    justify-items: auto;
+    justify-content: center;
+    justify-items: center;
     grid-gap: 20px;
-    padding: 600px;
+    padding: 40px;
     background-color: #fff;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin:auto
+
 }
 
 .container .quotationmark {
@@ -54,13 +54,14 @@ body {
 /* Testimonial card 1 */
 
 .testimonial1 {
-    background-color: hsl(263, 55%, 52%);
+    background-color: hsl(263, 100%, 23%);
     padding: 20px;
     border-radius: 5px;
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 500px;
 }
 
 /* Testimonial card 2 */
@@ -76,12 +77,13 @@ body {
 
 /* Testimonial card 3 */
 .testimonial3  {
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(210, 12%, 94%);
     padding: 20px;
     border-radius: 5px;
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     color: hsl(217, 19%, 35%);
+    margin-left: 500px;
 }
 
 /* Testimonial card 4 */
@@ -91,17 +93,18 @@ body {
     border-radius: 5px;
     grid-column: 2 / span 2;
     grid-row: 2/ span 1;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 40%, 91%);
 }
 
 /* Testimonial card 5 */
 .testimonial5{
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsla(0, 33%, 90%, 0.6);
     padding: 20px;
     border-radius: 5px;
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
     color: hsl(217, 19%, 35%);
+    margin-right: 600px;
 }
 
 
