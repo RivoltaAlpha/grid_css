@@ -123,19 +123,12 @@ body {
     font-style: italic;
     margin-top: 15px;
   }
-
-/* Media query for mobile phones */
-@media only screen and (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-
+@media only screen and (max-width: 640px) {
     .testimonial1,
     .testimonial2,
     .testimonial3,
     .testimonial4,
     .testimonial5 {
-        grid-column: 1 / span 1;
-        min-height: 50px;
-    }
-}
+    display: grid; /* Use grid for layout */
+    grid-template-columns: 1fr; /* Define a single column for larger screens */
+  }
