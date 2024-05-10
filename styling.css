@@ -19,6 +19,11 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: auto;
+    padding-bottom: 35%;
+    padding-top: 10%;
+    padding-left: 50%;
+    padding-right: 50%;
 
 }
 
@@ -33,13 +38,13 @@ body {
     height: 1px;
     border-radius: 50%;
     border: 2px solid #0d0101;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 
 .container .header {
     display: grid;
-    justify-content: start;
+    justify-content: center;
     grid-auto-flow: column;
     align-items: center;
     grid-gap: 10px;
@@ -56,12 +61,13 @@ body {
 .testimonial1 {
     background-color: hsl(263, 100%, 23%);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: 500px;
+
 }
 
 /* Testimonial card 2 */
@@ -69,7 +75,7 @@ body {
 .testimonial2 {
     background-color: hsl(217, 19%, 35%);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     color: hsl(0, 0%, 100%);
@@ -79,7 +85,7 @@ body {
 .testimonial3  {
     background-color: hsl(210, 12%, 94%);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
     color: hsl(217, 19%, 35%);
@@ -90,7 +96,7 @@ body {
 .testimonial4{
     background-color: hsl(219, 29%, 14%);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     grid-column: 2 / span 2;
     grid-row: 2/ span 1;
     color: hsl(0, 40%, 91%);
@@ -100,7 +106,7 @@ body {
 .testimonial5{
     background-color: hsla(0, 33%, 90%, 0.6);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
     color: hsl(217, 19%, 35%);
@@ -132,3 +138,4 @@ body {
     display: grid; /* Use grid for layout */
     grid-template-columns: 1fr; /* Define a single column for larger screens */
   }
+}
